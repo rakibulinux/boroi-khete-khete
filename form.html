@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Table</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/audio-video.html">Audio</a></li>
+            <li><a href="/table.html">Table</a></li>
+            <li><a href="/form.html">Form</a></li>
+            <li><a href="/blog.html">Blog</a></li>
+        </ul>
+    </nav>
+    <h1>Fill out the form to submit</h1>
+    <form action="">
+        <p>Name:<label for="name"><input type="text" name="name" id="name"></label></p>
+        <p>Email:<label for="email"><input type="text" name="email" id="email"></label></p>
+        <fieldset>
+            <legend>Select your subject</legend>
+            <p><label for="sci"><input type="radio" name="sub" id="sci">Science</label></p>
+            <p><label for="com"><input type="radio" name="sub" id="com">Commerce</label></p>
+            <p><label for="arts"><input type="radio" name="sub" id="arts">Arts</label></p>
+        </fieldset>
+        <fieldset>
+            <legend>Select extra subject</legend>
+            <p><label for="sub1"><input type="checkbox" name="subs" id="sub1">sub1</label></p>
+            <p><label for="sub2"><input type="checkbox" name="subs" id="sub2">sub2</label></p>
+            <p><label for="sub3"><input type="checkbox" name="subs" id="sub3">sub3</label></p>
+        </fieldset>
+    </form>
+</body>
+</html>

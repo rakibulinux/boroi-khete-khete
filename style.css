@@ -1,0 +1,30 @@
+h1:hover{
+    color: aqua;
+    padding: 20px;
+    background-color: aquamarine;
+}
+
+#try-new:focus{
+    color: aquamarine;
+}
+
+a:visited{
+    color: aqua;
+}
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+    display: inline-flex;
+}
+
+td,th{
+    padding: 0 10px;
+    border: 1px solid lightgrey;
+}
+
+table{
+    border-collapse: collapse;
+}
